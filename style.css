@@ -3,11 +3,13 @@
 h1,
 h3,
 p,
-label {
+button,
+a {
     font-family: 'Dongle', sans-serif;
     font-weight: 400;
     line-height: 0%;
     color: #ff6529;
+    text-decoration: none;
 }
 
 h1 {
@@ -19,11 +21,6 @@ h3 {
     font-weight: 700;
     font-size: 40px;
     /* line-height: 0px; */
-}
-
-p,
-label {
-    font-size: 30px;
 }
 
 body {
@@ -42,36 +39,92 @@ body {
     border: 1px solid red;
 }
 
-.illustration {
+.main-section div {
     flex: 1;
-    max-width: 100%;
-    /* border: 1px solid red; */
-    align-items: center;
-    padding-right: 50px;
-    justify-content: center;
 }
 
-.illustration img {
+.cotainer {
+    flex: 1;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    /* border: 1px solid red; */
+}
+
+#avatar svg {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* .avatar img {
     width: auto;
     height: 500px;
     border: 1px solid rgb(100, 120, 48);
+} */
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
-.selections {
+.download-button {
+    color: white;
+    background-color: #f68b62;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    margin: 530px 0px 0px 50px;
+}
+
+.share-button {
+    color: white;
+    background-color: #f68b62;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    margin: 530px 0px 0px 10px;
+}
+
+.download-button:hover,
+.share-button:hover {
+    background-color: #ff6529;
+}
+
+.show {
+    display: block !important;
+}
+
+.components {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    cursor: pointer;
     border: 1px solid rgb(79, 59, 210);
 }
 
-.selections img {
+.components img {
+    height: 5%;
     width: auto;
-    height: 6%;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    /* padding: 5px; */
-    border: #f68b62 dotted 4px;
+    max-height: 150px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
     border-radius: 15px;
     background-color: #ffffff;
+}
+
+.select-option img {
+    border: #f68b62 dotted 4px;
 }
 
 /* .selections img:last-child {
