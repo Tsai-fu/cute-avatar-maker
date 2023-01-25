@@ -135,7 +135,10 @@ body {
     padding: 10px;
     border-radius: 15px;
     background-color: #ffffff;
-    border: #bc7b7b dotted 4px;
+}
+
+.component-option {
+    border: #ffffff dashed 3.5px;
 }
 
 .select-option {
