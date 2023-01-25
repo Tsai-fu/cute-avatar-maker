@@ -1,4 +1,5 @@
-$('.select-option').on('click', function () {
-    $('.select-option').removeClass('option-active');
-    $(this).toggleClass('option-active');
+$('.component-option').on('click', function () {
+    $('.component-option').removeClass('.select-option');
+    $(this).toggleClass('.select-option');
 })
+

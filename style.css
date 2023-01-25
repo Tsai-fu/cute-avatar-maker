@@ -26,7 +26,7 @@ h3 {
 
 body {
     margin: 0;
-    padding: 1% 2%;
+    padding: 1.2% 2%;
     background-color: #ffe1d6;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .main-section {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .main-section div {
@@ -68,12 +68,6 @@ body {
 .show {
     display: block !important;
 }
-
-/* .avatar img {
-    width: auto;
-    height: 500px;
-    border: 1px solid rgb(100, 120, 48);
-} */
 
 .buttons {
     display: grid;
@@ -141,9 +135,9 @@ body {
     padding: 10px;
     border-radius: 15px;
     background-color: #ffffff;
-    border: #ffffff dotted 4px;
+    border: #bc7b7b dotted 4px;
 }
 
-.select-option img {
+.select-option {
     border: #f68b62 dashed 3.5px;
 }
