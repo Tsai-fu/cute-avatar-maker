@@ -127,7 +127,11 @@ body {
     /* float: left; */
 }
 
-.components img {
+/* .components img {
+    
+} */
+
+.component-option {
     cursor: pointer;
     /* height: auto;
     width: 50%; */
@@ -135,12 +139,9 @@ body {
     padding: 10px;
     border-radius: 15px;
     background-color: #ffffff;
-}
-
-.component-option {
     border: #ffffff dashed 3.5px;
 }
 
-.select-option {
+.active {
     border: #f68b62 dashed 3.5px;
 }
