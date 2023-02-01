@@ -1,1 +1,12 @@
-<svg id="panda_1" data-name="panda 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.15 504.15"><defs><style>.cls-1{fill:#f68b62;}.cls-1,.cls-2,.cls-3{stroke:#f68b62;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}.cls-2{fill:#fff;}.cls-3{fill:none;}</style></defs><ellipse class="cls-1" cx="331.4" cy="317.07" rx="49.19" ry="38.91" transform="translate(-33.95 39.81) rotate(-6.54)"/><ellipse class="cls-2" cx="311.21" cy="300.92" rx="9.91" ry="8.08"/><ellipse class="cls-1" cx="172.74" cy="317.07" rx="38.91" ry="49.19" transform="translate(-161.93 452.58) rotate(-83.46)"/><ellipse class="cls-2" cx="193.74" cy="300.92" rx="9.91" ry="8.08"/><path id="mouth" class="cls-3" d="M267.16,380.26c-.48,2.12-2,3.07-4.73,3.84-2.33.66-5.34.59-7.22-.81a7.17,7.17,0,0,1-2.73-5.7v.11a7.17,7.17,0,0,1-2.73,5.7c-1.89,1.4-4.89,1.47-7.23.81-2.74-.77-4.24-1.71-4.73-3.84"/><path id="nose" class="cls-2" d="M262.49,359.38c0,2.43-4.48,10.55-10,10.55s-10-8.12-10-10.55c0-3.68,4.48-3.4,10-3.4S262.49,355.7,262.49,359.38Z"/></svg>
+<svg id="panda_1" data-name="panda 1"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.15 504.15">
+    <defs>
+        <style>.cls-1{fill:#f68b62;}.cls-1,.cls-2,.cls-3{stroke:#f68b62;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}.cls-2{fill:#fff;}.cls-3{fill:none;}</style>
+    </defs>
+    <ellipse class="cls-1" cx="331.4" cy="317.07" rx="49.19" ry="38.91" transform="translate(-33.95 39.81) rotate(-6.54)"/>
+    <ellipse class="cls-2" cx="311.21" cy="300.92" rx="9.91" ry="8.08"/>
+    <ellipse class="cls-1" cx="172.74" cy="317.07" rx="38.91" ry="49.19" transform="translate(-161.93 452.58) rotate(-83.46)"/>
+    <ellipse class="cls-2" cx="193.74" cy="300.92" rx="9.91" ry="8.08"/>
+    <path id="mouth" class="cls-3" d="M267.16,380.26c-.48,2.12-2,3.07-4.73,3.84-2.33.66-5.34.59-7.22-.81a7.17,7.17,0,0,1-2.73-5.7v.11a7.17,7.17,0,0,1-2.73,5.7c-1.89,1.4-4.89,1.47-7.23.81-2.74-.77-4.24-1.71-4.73-3.84"/>
+    <path id="nose" class="cls-2" d="M262.49,359.38c0,2.43-4.48,10.55-10,10.55s-10-8.12-10-10.55c0-3.68,4.48-3.4,10-3.4S262.49,355.7,262.49,359.38Z"/>
+</svg>

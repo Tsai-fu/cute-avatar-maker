@@ -1,7 +1,11 @@
 'use strict'
 
 $('.component-option').on('click', function () {
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-})
+    let $this = $(this);
+    $this.siblings().removeClass('active');
+    $this.addClass('active');
 
+    let $avatar_component = $('#' + $this.data('id'));
+    $avatar_component.siblings().removeClass('show');
+    $avatar_component.addClass('show');
+})

@@ -1,1 +1,10 @@
-<svg id="panda_1" data-name="panda 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.15 504.15"><defs><style>.cls-1{fill:#f68b62;stroke:#f68b62;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}</style></defs><g id="ears"><path class="cls-1" d="M485,150.17c0,34.11-22.65,62.76-53.29,70.88a183.4,183.4,0,0,0-80.19-105.64C363.52,92.54,387,77,414,77,453.21,77,485,109.76,485,150.17Z"/><path class="cls-1" d="M158.53,115.54a184.18,184.18,0,0,0-80.2,105.53C47.65,213,25,184.3,25,150.17,25,109.76,56.76,77,96,77,123,77,146.54,92.6,158.53,115.54Z"/></g></svg>
+<svg id="panda_1" data-name="panda 1"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.15 504.15">
+    <defs>
+        <style>.cls-1{fill:#f68b62;stroke:#f68b62;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}</style>
+    </defs>
+    <g id="ears">
+        <path class="cls-1" d="M485,150.17c0,34.11-22.65,62.76-53.29,70.88a183.4,183.4,0,0,0-80.19-105.64C363.52,92.54,387,77,414,77,453.21,77,485,109.76,485,150.17Z"/>
+        <path class="cls-1" d="M158.53,115.54a184.18,184.18,0,0,0-80.2,105.53C47.65,213,25,184.3,25,150.17,25,109.76,56.76,77,96,77,123,77,146.54,92.6,158.53,115.54Z"/>
+    </g>
+</svg>

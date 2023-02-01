@@ -1,1 +1,14 @@
-<svg id="panda_1" data-name="panda 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.15 504.15"><defs><style>.cls-1{fill:#f68b62;}.cls-1,.cls-2,.cls-3{stroke:#f68b62;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}.cls-2{fill:#fff;}.cls-3{fill:none;}</style></defs><g id="eyes"><ellipse class="cls-1" cx="329.86" cy="317.5" rx="38.4" ry="48.54" transform="matrix(0.26, -0.97, 0.97, 0.26, -62.14, 554.03)"/><ellipse class="cls-2" cx="309.94" cy="301.56" rx="9.78" ry="7.97"/><ellipse class="cls-1" cx="174.11" cy="317.5" rx="48.54" ry="38.4" transform="translate(-76.19 55.83) rotate(-14.99)"/><ellipse class="cls-2" cx="194.03" cy="301.56" rx="9.78" ry="7.97"/></g><path id="mouth" class="cls-3" d="M266.47,379.85c-.47,2.1-2,3-4.66,3.79-2.31.65-5.27.59-7.13-.8a7.08,7.08,0,0,1-2.69-5.62v.11a7.06,7.06,0,0,1-2.7,5.62c-1.86,1.39-4.82,1.45-7.13.8-2.7-.75-4.18-1.69-4.66-3.79"/><path id="nose" class="cls-2" d="M261.86,362.48c0,2.39-4.42,7.18-9.87,7.18s-9.88-4.79-9.88-7.18c0-3.64,4.42-6.58,9.88-6.58S261.86,358.84,261.86,362.48Z"/></svg>
+<svg id="panda_1" data-name="panda 1"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.15 504.15">
+    <defs>
+        <style>.cls-1{fill:#f68b62;}.cls-1,.cls-2,.cls-3{stroke:#f68b62;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}.cls-2{fill:#fff;}.cls-3{fill:none;}</style>
+    </defs>
+    <g id="eyes">
+        <ellipse class="cls-1" cx="329.86" cy="317.5" rx="38.4" ry="48.54" transform="matrix(0.26, -0.97, 0.97, 0.26, -62.14, 554.03)"/>
+        <ellipse class="cls-2" cx="309.94" cy="301.56" rx="9.78" ry="7.97"/>
+        <ellipse class="cls-1" cx="174.11" cy="317.5" rx="48.54" ry="38.4" transform="translate(-76.19 55.83) rotate(-14.99)"/>
+        <ellipse class="cls-2" cx="194.03" cy="301.56" rx="9.78" ry="7.97"/>
+    </g>
+    <path id="mouth" class="cls-3" d="M266.47,379.85c-.47,2.1-2,3-4.66,3.79-2.31.65-5.27.59-7.13-.8a7.08,7.08,0,0,1-2.69-5.62v.11a7.06,7.06,0,0,1-2.7,5.62c-1.86,1.39-4.82,1.45-7.13.8-2.7-.75-4.18-1.69-4.66-3.79"/>
+    <path id="nose" class="cls-2" d="M261.86,362.48c0,2.39-4.42,7.18-9.87,7.18s-9.88-4.79-9.88-7.18c0-3.64,4.42-6.58,9.88-6.58S261.86,358.84,261.86,362.48Z"/>
+</svg>
