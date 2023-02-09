@@ -84,7 +84,7 @@ body {
     align-items: center;
 }
 
-.download-button {
+.download-button, #dl-png {
     color: white;
     background-color: #f68b62;
     border: none;
@@ -93,7 +93,7 @@ body {
     cursor: pointer;
     font-size: 40px;
     text-align: center;
-    margin: 530px 0px 0px 50px;
+    margin: 530px 0px 0px 10px;
 }
 
 .share-button {
@@ -109,12 +109,12 @@ body {
 }
 
 .download-button i,
-.share-button i {
+.share-button i, #dl-png i {
     font-size: 20px;
 }
 
 .download-button:hover,
-.share-button:hover {
+.share-button:hover, #dl-png:hover {
     background-color: #ff6529;
 }
 
