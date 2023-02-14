@@ -1,48 +1,49 @@
-<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="avatar-4" filter="url(#filter0_d_49_142)">
-<g id="ears-4">
-<path id="Vector" d="M709.93 301.38C751.832 301.38 785.8 266.373 785.8 223.19C785.8 180.007 751.832 145 709.93 145C668.028 145 634.06 180.007 634.06 223.19C634.06 266.373 668.028 301.38 709.93 301.38Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M701.2 258.81C720.491 258.81 736.13 242.692 736.13 222.81C736.13 202.928 720.491 186.81 701.2 186.81C681.909 186.81 666.27 202.928 666.27 222.81C666.27 242.692 681.909 258.81 701.2 258.81Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M369.93 301.38C411.832 301.38 445.8 266.373 445.8 223.19C445.8 180.007 411.832 145 369.93 145C328.028 145 294.06 180.007 294.06 223.19C294.06 266.373 328.028 301.38 369.93 301.38Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M378.66 258.81C397.951 258.81 413.59 242.692 413.59 222.81C413.59 202.928 397.951 186.81 378.66 186.81C359.369 186.81 343.73 202.928 343.73 222.81C343.73 242.692 359.369 258.81 378.66 258.81Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g id="body-4">
-<g id="legs">
-<path id="Vector_5" d="M567.82 925.32C555.48 1010.02 586.41 1022.91 618.98 1027.65C651.55 1032.39 670.91 1020.34 681.53 957.93C695.89 873.55 660.77 785.28 649.13 780.57C618.62 768.21 580.15 840.63 567.82 925.32Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_6" d="M512.18 925.32C524.52 1010.02 493.59 1022.91 461.02 1027.65C428.45 1032.39 409.09 1020.34 398.47 957.93C384.11 873.55 419.23 785.28 430.87 780.57C461.38 768.21 499.85 840.63 512.18 925.32Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g id="arms">
-<path id="Vector_7" d="M665.38 714.19C716.55 782.8 744.14 772.57 767.1 755.45C790.06 738.33 793.41 717.45 756.63 665.95C706.91 596.29 624.6 555 614.31 559C587.33 569.32 614.22 645.58 665.38 714.19Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g id="arms_2">
-<path id="Vector_8" d="M414.62 714.19C363.45 782.8 335.86 772.57 312.9 755.45C289.94 738.33 286.59 717.45 323.37 665.95C373.09 596.29 455.37 555.02 465.69 558.95C492.67 569.32 465.78 645.58 414.62 714.19Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<path id="torso" d="M668.76 665.7C653.76 588.7 608.76 531 540 531C471.24 531 426.21 588.75 411.24 665.7C402.68 709.7 402.72 759.4 425.83 796.51C444.72 826.85 474.14 844.42 504.91 851.26C528.041 856.22 551.96 856.22 575.09 851.26C605.86 844.42 635.28 826.85 654.17 796.51C677.28 759.4 677.32 709.7 668.76 665.7Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<path id="face-4" d="M728.56 397.28C724.805 387.172 723.436 376.334 724.56 365.61C735.61 264.61 675.88 165.24 589.2 139.71C557.04 130.55 522.96 130.55 490.8 139.71C404.12 165.24 344.39 264.64 355.44 365.61C356.564 376.334 355.195 387.172 351.44 397.28C347.859 406.981 346.017 417.239 346 427.58C346 498.5 432.86 562.93 540 562.93C647.14 562.93 734 498.5 734 427.58C733.983 417.239 732.141 406.981 728.56 397.28Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="eyes-4">
-<path id="Vector_9" d="M625.74 433.15C603.44 434.99 584.58 419.24 583.62 397.97C583.442 393.989 583.901 390.006 584.98 386.17C593.07 375.46 610.46 358.4 639.17 358.23C653.38 363.15 663.68 375.76 664.38 391.32C665.34 412.59 648 431.32 625.74 433.15Z" fill="#F68B62" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_10" d="M616.184 391.847C617.169 387.534 614.409 383.225 610.021 382.224C605.633 381.222 601.277 383.906 600.293 388.219C599.308 392.532 602.067 396.84 606.456 397.842C610.844 398.844 615.199 396.16 616.184 391.847Z" fill="white" stroke="#F68B62" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_11" d="M454.26 433.15C476.56 434.99 495.42 419.24 496.38 397.97C496.558 393.989 496.099 390.006 495.02 386.17C486.93 375.46 469.54 358.4 440.83 358.23C426.62 363.15 416.32 375.76 415.62 391.32C414.66 412.59 432 431.32 454.26 433.15Z" fill="#F68B62" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_12" d="M473.566 397.812C477.954 396.81 480.713 392.502 479.728 388.189C478.744 383.876 474.388 381.192 470 382.194C465.612 383.196 462.853 387.504 463.837 391.817C464.822 396.13 469.177 398.814 473.566 397.812Z" fill="white" stroke="#F68B62" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_13" d="M549.39 446.31C549.39 448.62 545.19 456.38 540 456.38C534.81 456.38 530.61 448.62 530.61 446.31C530.61 442.78 534.81 443.06 540 443.06C545.19 443.06 549.39 442.78 549.39 446.31Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="Vector_14">
-<path d="M519 477L540 465.79L561 477" fill="white"/>
-<path d="M519 477L540 465.79L561 477" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<path id="Vector_15" d="M540 456.38V465.79" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-<defs>
-<filter id="filter0_d_49_142" x="-4" y="0" width="1088" height="1088" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_49_142"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_49_142" result="shape"/>
-</filter>
-</defs>
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <g id="avatar-4" filter="url(#filter0_d_49_142)">
+        <g id="ears-4">
+            <path id="Vector" d="M709.93 301.38C751.832 301.38 785.8 266.373 785.8 223.19C785.8 180.007 751.832 145 709.93 145C668.028 145 634.06 180.007 634.06 223.19C634.06 266.373 668.028 301.38 709.93 301.38Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_2" d="M701.2 258.81C720.491 258.81 736.13 242.692 736.13 222.81C736.13 202.928 720.491 186.81 701.2 186.81C681.909 186.81 666.27 202.928 666.27 222.81C666.27 242.692 681.909 258.81 701.2 258.81Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_3" d="M369.93 301.38C411.832 301.38 445.8 266.373 445.8 223.19C445.8 180.007 411.832 145 369.93 145C328.028 145 294.06 180.007 294.06 223.19C294.06 266.373 328.028 301.38 369.93 301.38Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_4" d="M378.66 258.81C397.951 258.81 413.59 242.692 413.59 222.81C413.59 202.928 397.951 186.81 378.66 186.81C359.369 186.81 343.73 202.928 343.73 222.81C343.73 242.692 359.369 258.81 378.66 258.81Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="body-4">
+            <g id="legs">
+                <path id="Vector_5" d="M567.82 925.32C555.48 1010.02 586.41 1022.91 618.98 1027.65C651.55 1032.39 670.91 1020.34 681.53 957.93C695.89 873.55 660.77 785.28 649.13 780.57C618.62 768.21 580.15 840.63 567.82 925.32Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path id="Vector_6" d="M512.18 925.32C524.52 1010.02 493.59 1022.91 461.02 1027.65C428.45 1032.39 409.09 1020.34 398.47 957.93C384.11 873.55 419.23 785.28 430.87 780.57C461.38 768.21 499.85 840.63 512.18 925.32Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <g id="arms">
+                <path id="Vector_7" d="M665.38 714.19C716.55 782.8 744.14 772.57 767.1 755.45C790.06 738.33 793.41 717.45 756.63 665.95C706.91 596.29 624.6 555 614.31 559C587.33 569.32 614.22 645.58 665.38 714.19Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <g id="arms_2">
+                <path id="Vector_8" d="M414.62 714.19C363.45 782.8 335.86 772.57 312.9 755.45C289.94 738.33 286.59 717.45 323.37 665.95C373.09 596.29 455.37 555.02 465.69 558.95C492.67 569.32 465.78 645.58 414.62 714.19Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <path id="torso" d="M668.76 665.7C653.76 588.7 608.76 531 540 531C471.24 531 426.21 588.75 411.24 665.7C402.68 709.7 402.72 759.4 425.83 796.51C444.72 826.85 474.14 844.42 504.91 851.26C528.041 856.22 551.96 856.22 575.09 851.26C605.86 844.42 635.28 826.85 654.17 796.51C677.28 759.4 677.32 709.7 668.76 665.7Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <path id="face-4" d="M728.56 397.28C724.805 387.172 723.436 376.334 724.56 365.61C735.61 264.61 675.88 165.24 589.2 139.71C557.04 130.55 522.96 130.55 490.8 139.71C404.12 165.24 344.39 264.64 355.44 365.61C356.564 376.334 355.195 387.172 351.44 397.28C347.859 406.981 346.017 417.239 346 427.58C346 498.5 432.86 562.93 540 562.93C647.14 562.93 734 498.5 734 427.58C733.983 417.239 732.141 406.981 728.56 397.28Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="eyes-4">
+            <path id="Vector_9" d="M625.74 433.15C603.44 434.99 584.58 419.24 583.62 397.97C583.442 393.989 583.901 390.006 584.98 386.17C593.07 375.46 610.46 358.4 639.17 358.23C653.38 363.15 663.68 375.76 664.38 391.32C665.34 412.59 648 431.32 625.74 433.15Z" fill="#F68B62" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_10" d="M616.184 391.847C617.169 387.534 614.409 383.225 610.021 382.224C605.633 381.222 601.277 383.906 600.293 388.219C599.308 392.532 602.067 396.84 606.456 397.842C610.844 398.844 615.199 396.16 616.184 391.847Z" fill="white" stroke="#F68B62" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_11" d="M454.26 433.15C476.56 434.99 495.42 419.24 496.38 397.97C496.558 393.989 496.099 390.006 495.02 386.17C486.93 375.46 469.54 358.4 440.83 358.23C426.62 363.15 416.32 375.76 415.62 391.32C414.66 412.59 432 431.32 454.26 433.15Z" fill="#F68B62" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_12" d="M473.566 397.812C477.954 396.81 480.713 392.502 479.728 388.189C478.744 383.876 474.388 381.192 470 382.194C465.612 383.196 462.853 387.504 463.837 391.817C464.822 396.13 469.177 398.814 473.566 397.812Z" fill="white" stroke="#F68B62" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_13" d="M549.39 446.31C549.39 448.62 545.19 456.38 540 456.38C534.81 456.38 530.61 448.62 530.61 446.31C530.61 442.78 534.81 443.06 540 443.06C545.19 443.06 549.39 442.78 549.39 446.31Z" fill="white" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="Vector_14">
+                <path d="M519 477L540 465.79L561 477" fill="white"/>
+                <path d="M519 477L540 465.79L561 477" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <path id="Vector_15" d="M540 456.38V465.79" stroke="#F68B62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+    </g>
+    <defs>
+        <filter id="filter0_d_49_142" x="-4" y="0" width="1088" height="1088" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_49_142"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_49_142" result="shape"/>
+        </filter>
+    </defs>
 </svg>
