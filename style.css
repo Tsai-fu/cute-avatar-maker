@@ -4,7 +4,7 @@ h1,
 h3,
 p,
 button,
-a {
+a, label {
     font-family: 'Dongle', sans-serif;
     font-weight: 400;
     line-height: 0%;
@@ -18,7 +18,7 @@ h1 {
     margin: 30px 0px 40px 0px;
 }
 
-h3 {
+h3, label {
     font-weight: 700;
     font-size: 40px;
     /* line-height: 0px; */
@@ -80,7 +80,7 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     align-items: center;
 }
 
@@ -116,6 +116,51 @@ body {
 .download-button:hover,
 .share-button:hover, #dl-png:hover {
     background-color: #ff6529;
+}
+
+label{
+    /* margin-right: 8px; */
+    margin-bottom: 30px;
+}
+
+.color-pickers{
+    float: right;
+    margin-top: 43%;
+    text-align: center;
+}
+
+input {
+    visibility: hidden;
+  }
+
+.fill-cp{
+    display: block;
+    margin-top: 8px;
+    height: 20px;
+    width: 99 px;
+    border: #f68b62 solid 3.5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.stroke-cp{
+    display: block;
+    margin-top: 8px;
+    height: 20px;
+    width: 99 px;
+    border: #f68b62 solid 3.5px;
+    border-radius: 5px;
+    background-color: #f68b62;
+}
+
+.background-cp{
+    display: block;
+    margin-top: 8px;
+    height: 20px;
+    width: 99 px;
+    border: #f68b62 solid 3.5px;
+    border-radius: 5px;
+    background-color: #ffe1d6;
 }
 
 .components {
