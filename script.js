@@ -20,30 +20,26 @@ document.querySelectorAll(".component-option").forEach((item) => {
   });
 });
 
-// document.getElementById("color").addEventListener("change", onChangeColor);
-// function onChangeColor() {
-//   console.log(this.value); //this.value contains the hexadecimal value of your input
-//   //change your canvas color
-// }
-
 // This allow color in color picker change along the input
 $(document).on("change", "input[type=color]", function () {
   this.parentNode.style.backgroundColor = this.value;
 });
 
-// This is color picker for Fill color
-let fillcolor = document.getElementById("ColorPicker");
-// function changeColor() {
-setInterval(() => {
-  document.getElementsByClassName("fill-color").style.fill = fillcolor.value;
+// Color picker for fill color
+document
+  .querySelector("#fill-color-picker")
+  .addEventListener("input", (event) => {
+    document.querySelectorAll(".fill-color").forEach((item) => {
+      item.style.fill = event.target.value;
+    });
+  });
+
+// Color picker for website's Background color
+document.querySelector("#colorpicker").addEventListener("input", (event) => {
+  document.body.style.backgroundColor = event.target.value;
 });
 
-// This is color picker for website's Background color
-let colorpicker = document.getElementById("colorpicker");
-setInterval(() => {
-  let color = colorpicker.value;
-  document.body.style.backgroundColor = color;
-}, 200);
+////////////////////////////////////////////////
 
 function download(href, name) {
   var a = document.createElement("a");
