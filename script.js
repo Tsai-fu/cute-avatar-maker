@@ -21,9 +21,11 @@ document.querySelectorAll(".component-option").forEach((item) => {
 });
 
 // This allow color in color picker change along the input
-$(document).on("change", "input[type=color]", function () {
-  this.parentNode.style.backgroundColor = this.value;
-});
+document.querySelectorAll("input[type=color]").forEach((item) => {
+  item.addEventListener("input", (event) => {
+    item.parentNode.style.backgroundColor = event.target.value;
+  })
+})
 
 // Color picker for fill color
 document
@@ -34,8 +36,18 @@ document
     });
   });
 
+// Color picker for stroke color
+document
+  .querySelector("#stroke-color-picker")
+  .addEventListener("input", (event) => {
+    document.querySelectorAll(".stroke-color").forEach((item) => {
+      item.style.stroke = event.target.value;
+    });
+  });
+
 // Color picker for website's Background color
-document.querySelector("#colorpicker").addEventListener("input", (event) => {
+document.querySelector("#background-color-picker").addEventListener("input", (event) => {
+  console.log(event.target.value);
   document.body.style.backgroundColor = event.target.value;
 });
 

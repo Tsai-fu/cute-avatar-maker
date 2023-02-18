@@ -163,6 +163,10 @@ input {
     background-color: #ffe1d6;
 }
 
+/* .stroke-color{
+    stroke: aqua;
+} */
+
 .components {
     /* border: 1px solid rgb(79, 59, 210); */
 }
@@ -194,3 +198,4 @@ input {
 .active {
     border: #f68b62 dashed 3.5px;
 }
+
