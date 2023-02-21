@@ -56,6 +56,15 @@ document
     document.body.style.backgroundColor = event.target.value;
   });
 
+/////////////////////////////////////////////////
+
+var canvas = document.getElementById('avatar-canvas');
+         var ctx = canvas.getContext('2d');
+         var data = '<svg scr="image/avatar-1" width="500"
+         height="500">' +
+            '<foreignObject width="100%" height="100%">' +
+         '</svg>';
+
 ////////////////////////////////////////////////
 
 function download(href, name) {

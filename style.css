@@ -63,6 +63,11 @@ body {
     /* border: 1px solid red; */
 }
 
+#avatar-canvas{
+    width: 500px;
+    height: 500px;
+}
+
 #avatar svg {
     position: absolute;
     width: 500px;
