@@ -24,8 +24,8 @@ document.querySelectorAll(".component-option").forEach((item) => {
 document.querySelectorAll("input[type=color]").forEach((item) => {
   item.addEventListener("input", (event) => {
     item.parentNode.style.backgroundColor = event.target.value;
-  })
-})
+  });
+});
 
 // Color picker for fill color
 document
@@ -43,13 +43,18 @@ document
     document.querySelectorAll(".stroke-color").forEach((item) => {
       item.style.stroke = event.target.value;
     });
+    document.querySelectorAll(".special-fill").forEach((item) => {
+      item.style.fill = event.target.value;
+    });
   });
 
 // Color picker for website's Background color
-document.querySelector("#background-color-picker").addEventListener("input", (event) => {
-  console.log(event.target.value);
-  document.body.style.backgroundColor = event.target.value;
-});
+document
+  .querySelector("#background-color-picker")
+  .addEventListener("input", (event) => {
+    console.log(event.target.value);
+    document.body.style.backgroundColor = event.target.value;
+  });
 
 ////////////////////////////////////////////////
 
