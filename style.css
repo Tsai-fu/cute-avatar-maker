@@ -59,7 +59,7 @@ body {
     max-width: 100%;
     align-items: center;
     justify-content: center;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     /* border: 1px solid red; */
 }
 
@@ -80,8 +80,11 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    /* padding: 0px 80px; */
+    margin-left: 73px;
+    float: left;
 }
 
 .download-button, #dl-png {
@@ -93,7 +96,8 @@ body {
     cursor: pointer;
     font-size: 40px;
     text-align: center;
-    margin: 530px 0px 0px 10px;
+    margin: 530px 0px 0px 0px;
+    /* margin: 300px 0px 0px 0px; */
 }
 
 .share-button {
@@ -105,7 +109,8 @@ body {
     cursor: pointer;
     font-size: 40px;
     text-align: center;
-    margin: 530px 0px 0px 10px;
+    margin: 530px 0px 0px 15px;
+    /* margin: 20px 0px 0px 0px; */
 }
 
 .download-button i,
@@ -124,8 +129,9 @@ label{
 }
 
 .color-pickers{
-    float: right;
-    margin-top: 43%;
+    float: left;
+    /* margin-top: 16%; */
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -162,10 +168,6 @@ input {
     border-radius: 5px;
     background-color: #ffe1d6;
 }
-
-/* .stroke-color{
-    stroke: aqua;
-} */
 
 .components {
     /* border: 1px solid rgb(79, 59, 210); */
