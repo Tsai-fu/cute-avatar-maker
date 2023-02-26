@@ -58,14 +58,15 @@ document
 
 /////////////////////////////////////////////////
 
-var canvas = document.getElementById('avatar-canvas');
-         var ctx = canvas.getContext('2d');
-         var data = '<svg scr="image/avatar-1" width="500"
-         height="500">' +
-            '<foreignObject width="100%" height="100%">' +
-         '</svg>';
+// document
+//   .querySelector(".download-button")
+//   .addEventListener("click", function () {
+//     html2canvas(document.querySelector("#avatar")).then((canvas) => {
+//       return Canvas2Image.saveAsPNG(canvas);
+//     });
+//   });
 
-////////////////////////////////////////////////
+/////////////////////////////////////////////////
 
 function download(href, name) {
   var a = document.createElement("a");
@@ -78,91 +79,39 @@ function download(href, name) {
   document.body.removeChild(a);
 }
 
-function downloadPNG() {
-  // specify png with and height in pixels
-  var png_width = 1024;
-  var png_height = 768;
+////////////////////////////////////////////////
 
-  var inline_svg = `
-  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
-     <circle cx="25" cy="25" r="20"/>
-  </svg>`; // code of inline SVG
-
-  var canvas = document.createElement("canvas"); // create <canvas> element
-  // The 2D Context provides objects, methods, and properties to draw
-  // and manipulate graphics on a canvas drawing surface.
-  var context = canvas.getContext("2d");
-
-  // set canvas with and height equal to png with and height
-  canvas.width = png_width;
-  canvas.height = png_height;
-
-  let image = new Image(); // create <img> element
-  image.onload = function () {
-    // define fill (specify 'no-repeat' if you don't want it to repeat
-    context.fillStyle = context.createPattern(image, "repeat");
-    // fill rectangle with defined fill
-    context.fillRect(0, 0, canvas.width, canvas.height);
-    this.download(canvas.toDataURL("image/png"), "example.png");
-  }.bind(this);
-
-  // btoa — binary string to ASCII (Base64-encoded)
-  image.src = "data:image/svg+xml;base64," + btoa(inline_svg);
+function downloadSVGAsPNG(e) {
+  const canvas = document.createElement("canvas");
+  const svg = document.querySelector("#avatar");
+  console.log(svg.outerHTML);
+  const base64doc = btoa(decodeURIComponent(encodeURIComponent(svg.outerHTML)));
+  const w = parseInt(svg.getAttribute("width"));
+  const h = parseInt(svg.getAttribute("height"));
+  const img_to_download = document.createElement("img");
+  img_to_download.src = "data:image/svg+xml;base64," + base64doc;
+  console.log(w, h);
+  img_to_download.onload = function () {
+    console.log("img loaded");
+    canvas.setAttribute("width", w);
+    canvas.setAttribute("height", h);
+    const context = canvas.getContext("2d");
+    //context.clearRect(0, 0, w, h);
+    context.drawImage(img_to_download, 0, 0, w, h);
+    const dataURL = canvas.toDataURL("image/png");
+    if (window.navigator.msSaveBlob) {
+      window.navigator.msSaveBlob(canvas.msToBlob(), "download.png");
+      e.preventDefault();
+    } else {
+      const a = document.createElement("a");
+      const my_evt = new MouseEvent("click");
+      a.download = "download.png";
+      a.href = dataURL;
+      a.dispatchEvent(my_evt);
+    }
+    //canvas.parentNode.removeChild(canvas);
+  };
 }
 
-document.getElementById("dl-png").addEventListener("click", () => {
-  console.log("click");
-  downloadPNG();
-  // let face = document.getElementById("face");
-  //   const svg = `
-  // <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
-  //    <circle cx="25" cy="25" r="20"/>
-  // </svg>`;
-  //   download(
-  //     window.URL.createObjectURL(new Blob([svg], { type: "image/svg" })),
-  //     "face.svg"
-  //   );
-});
-
-// document.getElementById("dl-png").addEventListener("click", () => {
-//   console.log("click");
-//   const screenshotTarget = document.getElementById("face");
-
-//   html2canvas(screenshotTarget).then((canvas) => {
-//     const base64image = canvas.toDataURL("image/png");
-//     var anchor = document.createElement("a");
-//     anchor.setAttribute("herf", base64image);
-//     anchor.setAttribute("download", "cute-avatar.png");
-//     anchor.click();
-//     anchor.remove();
-//   });
-// });
-
-// var svg = document.querySelector("#dl-png");
-// var data = new XMLSerializer().serializeToString(svg);
-// var canvas = document.createElement("canvas");
-// canvg(canvas, data, {
-//   renderCallback: function () {
-//     canvas.toBlob(function (blob) {
-//       download("cute-avatar.png", blob);
-//     });
-//   },
-// });
-
-// function download(href, name) {
-//   var a = document.createElement("a");
-
-//   a.download = name;
-//   a.href = href;
-
-//   document.body.appendChild(a);
-//   a.click();
-//   document.body.removeChild(a);
-// }
-
-// download(
-//   window.URL.createObjectURL(
-//     new Blob(["code of inline SVG"], { type: "image/svg" })
-//   ),
-//   "svg"
-// );
+const downloadPNG = document.querySelector("#downloadPNG");
+downloadPNG.addEventListener("click", downloadSVGAsPNG);
