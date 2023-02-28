@@ -49,11 +49,19 @@ document
   });
 
 // Color picker for website's Background color
+// document
+//   .querySelector("#background-color-picker")
+//   .addEventListener("input", (event) => {
+//     console.log(event.target.value);
+//     document.body.style.backgroundColor = event.target.value;
+//   });
+
+// Color picker for avatar's Background color
 document
   .querySelector("#background-color-picker")
   .addEventListener("input", (event) => {
     console.log(event.target.value);
-    document.body.style.backgroundColor = event.target.value;
+    document.querySelector("#avatar-bg").style.fill = event.target.value;
   });
 
 /////////////////////////////////////////////////
@@ -105,7 +113,7 @@ function downloadSVGAsPNG(e) {
     } else {
       const a = document.createElement("a");
       const my_evt = new MouseEvent("click");
-      a.download = "download.png";
+      a.download = "cute-avatar.png";
       a.href = dataURL;
       a.dispatchEvent(my_evt);
     }
