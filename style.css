@@ -14,7 +14,7 @@ a, label {
 
 h1 {
     font-weight: 700;
-    font-size: 65px;
+    font-size: 60px;
     margin: 30px 0px 40px 0px;
 }
 
@@ -56,11 +56,17 @@ body {
 
 .container {
     /* flex: 1; */
+    display: flex;
+    /* grid-template-columns: 1fr 2fr 3fr; */
     max-width: 100%;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     /* padding-right: 50px; */
     /* border: 1px solid red; */
+}
+
+#avatar{
+padding: 0px 30px;
 }
 
 #avatar svg {
@@ -75,9 +81,6 @@ body {
     display: none;
 }
 
-#avatar-bg{
-    /* fill: aqua; */
-}
 
 .show {
     display: block !important;
@@ -88,10 +91,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     align-items:center;
-    padding: 10px 70px 0px 140px;
-    /* padding: 0px 80px; */
-    /* margin-left: 45px; */
-    /* float: left; */
+    /* margin-top: 20px; */
+    padding: 20px 30px 0px 30px;
+    /* padding: 10px 70px 0px 140px; */
 }
 
 .download-button, .share-button, #dl-png {
@@ -123,9 +125,12 @@ label{
 
 .color-pickers{
     float: left;
-    /* margin-top: 16%; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
     text-align: center;
+}
+
+.color-pickers{
+    white-space: nowrap;
 }
 
 input {
@@ -163,16 +168,14 @@ input {
 }
 
 .components {
+/* margin-left: 10px; */
     /* border: 1px solid rgb(79, 59, 210); */
 }
 
-/* .components h3:first-child {
-    margin: 0px 0px 20px 0px;
-} */
-
 .components h3 {
-    margin: 50px 0px 10px 0px;
-    /* height: 20px; */
+/* margin: 15px 0 15px 0; */
+margin-bottom: 15px;
+/* height: 20px; */
 }
 
 .component-types {
@@ -180,8 +183,8 @@ input {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
     /* max-height: 150px; */
-    max-height: 100px;
-    /* margin-bottom: 10px; */
+    max-height: 90px;
+    margin-bottom: 55px;
     /* border: 1px solid red; */
 }
 
