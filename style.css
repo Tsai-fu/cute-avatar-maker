@@ -167,21 +167,17 @@ input {
 }
 
 .components {
-/* margin-left: 10px; */
     /* border: 1px solid rgb(79, 59, 210); */
 }
 
 .components h3 {
-/* margin: 15px 0 15px 0; */
 margin-bottom: 15px;
-/* height: 20px; */
 }
 
 .component-types {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
-    /* max-height: 150px; */
     max-height: 80px;
     margin-bottom: 65px;
     /* border: 1px solid red; */
@@ -189,8 +185,6 @@ margin-bottom: 15px;
 
 .component-option {
     cursor: pointer;
-    /* height: auto;
-    width: 50%; */
     padding: 10px;
     border-radius: 15px;
     background-color: #ffffff;

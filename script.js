@@ -87,8 +87,18 @@ function download(href, name) {
   document.body.removeChild(a);
 }
 
-////////////////////////////////////////////////
+// Download SVG
+function downloadSVGAsText() {
+  const svg = document.querySelector("#avatar");
+  const base64doc = btoa(unescape(encodeURIComponent(svg.outerHTML)));
+  const a = document.createElement("a");
+  const e = new MouseEvent("click");
+  a.download = "cute-avatar.svg";
+  a.href = "data:image/svg+xml;base64," + base64doc;
+  a.dispatchEvent(e);
+}
 
+// Download PNG
 function downloadSVGAsPNG(e) {
   const canvas = document.createElement("canvas");
   const svg = document.querySelector("#avatar");
@@ -101,11 +111,11 @@ function downloadSVGAsPNG(e) {
   console.log(w, h);
   img_to_download.onload = function () {
     console.log("img loaded");
-    canvas.setAttribute("width", w);
-    canvas.setAttribute("height", h);
+    canvas.setAttribute("width", 1080);
+    canvas.setAttribute("height", 1080);
     const context = canvas.getContext("2d");
     //context.clearRect(0, 0, w, h);
-    context.drawImage(img_to_download, 0, 0, w, h);
+    context.drawImage(img_to_download, 0, 0, 1080, 1080);
     const dataURL = canvas.toDataURL("image/png");
     if (window.navigator.msSaveBlob) {
       window.navigator.msSaveBlob(canvas.msToBlob(), "download.png");
@@ -120,6 +130,9 @@ function downloadSVGAsPNG(e) {
     //canvas.parentNode.removeChild(canvas);
   };
 }
+
+const downloadSVG = document.querySelector("#downloadSVG");
+downloadSVG.addEventListener("click", downloadSVGAsText);
 
 const downloadPNG = document.querySelector("#downloadPNG");
 downloadPNG.addEventListener("click", downloadSVGAsPNG);
