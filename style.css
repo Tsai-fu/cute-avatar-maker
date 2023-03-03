@@ -57,11 +57,9 @@ body {
 .container {
     /* flex: 1; */
     display: flex;
-    /* grid-template-columns: 1fr 2fr 3fr; */
     max-width: 100%;
     /* align-items: center; */
     justify-content: center;
-    /* padding-right: 50px; */
     /* border: 1px solid red; */
 }
 
@@ -95,7 +93,7 @@ padding: 0px 30px;
     padding: 20px 30px 0px 30px;
 }
 
-.download-button, .share-button, #dl-png {
+.download-button, .share-button {
     color: white;
     background-color: #f68b62;
     border: none;
@@ -108,12 +106,12 @@ padding: 0px 30px;
 }
 
 .download-button i,
-.share-button i, #dl-png i {
+.share-button i {
     font-size: 20px;
 }
 
 .download-button:hover,
-.share-button:hover, #dl-png:hover {
+.share-button:hover {
     background-color: #ff6529;
 }
 
@@ -136,33 +134,24 @@ input {
     visibility: hidden;
   }
 
+.fill-cp, .stroke-cp, .background-cp{
+      display: block;
+      margin-top: 8px;
+      height: 20px;
+      width: 99 px;
+      border: #f68b62 solid 3.5px;
+      border-radius: 5px;
+  }
+
 .fill-cp{
-    display: block;
-    margin-top: 8px;
-    height: 20px;
-    width: 99 px;
-    border: #f68b62 solid 3.5px;
-    border-radius: 5px;
     background-color: #ffffff;
 }
 
 .stroke-cp{
-    display: block;
-    margin-top: 8px;
-    height: 20px;
-    width: 99 px;
-    border: #f68b62 solid 3.5px;
-    border-radius: 5px;
     background-color: #f68b62;
 }
 
 .background-cp{
-    display: block;
-    margin-top: 8px;
-    height: 20px;
-    width: 99 px;
-    border: #f68b62 solid 3.5px;
-    border-radius: 5px;
     background-color: #ffe1d6;
 }
 
@@ -195,3 +184,65 @@ margin-bottom: 15px;
     border: #f68b62 dashed 3.5px;
 }
 
+@media screen and (max-width: 768px) {
+
+h1{
+    /* font-size: 50px; */
+    text-align: center;
+    margin-bottom: 50px;
+    /* line-height: -50px; */
+}
+
+h3, label{
+    font-size: 35px;
+}
+
+body{
+    padding: 30px 0px;
+}
+
+.avatar-preview{
+    padding: 0;
+    margin: 0;
+    max-width: min-content;
+}
+
+.main-section{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    /* max-width: 768px; */
+    /* scale: 80%; */
+}
+
+#avater{
+    margin: 0;
+    padding: 0;
+    /* top: -500px; */
+}
+
+.color-pickers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 70px 30px 0px 30px;
+}
+
+.fill-cp, .stroke-cp, .background-cp{
+    height: 30px;
+}
+
+.buttons{
+    padding:0
+    margin:0;
+}
+
+.component-types{
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+}

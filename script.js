@@ -1,15 +1,5 @@
 "use strict";
 
-// $('.component-option').on('click', function () {
-//     let $this = $(this);
-//     $this.siblings().removeClass('active');
-//     $this.addClass('active');
-
-//     let $avatar_component = $('#' + $this.data('id'));
-//     $avatar_component.siblings().removeClass('show');
-//     $avatar_component.addClass('show');
-// })
-
 document.querySelectorAll(".component-option").forEach((item) => {
   item.addEventListener("click", () => {
     item.parentNode.querySelector(".active").classList.remove("active");
@@ -63,16 +53,6 @@ document
     console.log(event.target.value);
     document.querySelector("#avatar-bg").style.fill = event.target.value;
   });
-
-/////////////////////////////////////////////////
-
-// document
-//   .querySelector(".download-button")
-//   .addEventListener("click", function () {
-//     html2canvas(document.querySelector("#avatar")).then((canvas) => {
-//       return Canvas2Image.saveAsPNG(canvas);
-//     });
-//   });
 
 /////////////////////////////////////////////////
 
