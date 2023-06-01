@@ -115,7 +115,7 @@ padding: 0px 30px;
     background-color: #ff6529;
 }
 
-.social-media-icons{
+.social-media-icons, span{
     visibility: hidden;
     /* width: 120px; */
     font-size: 32px;
