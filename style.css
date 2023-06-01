@@ -115,6 +115,30 @@ padding: 0px 30px;
     background-color: #ff6529;
 }
 
+.social-media-icons{
+    visibility: hidden;
+    /* width: 120px; */
+    font-size: 32px;
+    background-color: white;
+    color: #f68b62;
+    
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 20px;
+
+    /* Position */
+    position: absolute;
+    z-index: 1;
+
+    bottom: 15.5%;
+    margin-left: -120px;
+}
+
+.share-button:hover .social-media-icons{
+    visibility: visible;
+}
+
+
 label{
     /* margin-right: 8px; */
     margin-bottom: 30px;
