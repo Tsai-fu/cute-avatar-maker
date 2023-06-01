@@ -136,6 +136,7 @@ padding: 0px 30px;
 
 .share-button:hover .social-media-icons{
     visibility: visible;
+    color: #f68b62;
 }
 
 
